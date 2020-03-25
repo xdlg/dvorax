@@ -1,0 +1,62 @@
+xkb_symbols "basic" {
+
+    name[Group1]="Dvorax";
+
+    key <TLDE> { [ bracketleft, braceleft ] };
+    key <AE01> { [ 4, parenleft ] };
+    key <AE02> { [ 3, exclam ] };
+    key <AE03> { [ 2, at ] };
+    key <AE04> { [ 1, numbersign ] };
+    key <AE05> { [ 0, dollar ] };
+    key <AE06> { [ asciitilde, asciicircum, NoSymbol, dead_circumflex ] };
+    key <AE07> { [ 5, ampersand ] };
+    key <AE08> { [ 6, asterisk ] };
+    key <AE09> { [ 7, plus ] };
+    key <AE10> { [ 8, equal ] };
+    key <AE11> { [ 9, parenright ] };
+    key <AE12> { [ bracketright, braceright ] };
+
+    key <AD01> { [ apostrophe, quotedbl ] };
+    key <AD02> { [ comma, less ] };
+    key <AD03> { [ period, greater ] };
+    key <AD04> { [ p, P ] };
+    key <AD05> { [ y, Y ] };
+    key <AD06> { [ f, F ] };
+    key <AD07> { [ g, G ] };
+    key <AD08> { [ c, C, ccedilla, Ccedilla ] };
+    key <AD09> { [ r, R ] };
+    key <AD10> { [ l, L ] };
+    key <AD11> { [ slash, question ] };
+    key <AD12> { [ backslash, bar ] };
+
+    key <CAPS> {
+        symbols[Group1] = [ BackSpace ],
+        actions[Group1] = [ NoAction() ]
+    };
+    key <AC01> { [ a, A, adiaeresis, Adiaeresis ] };
+    key <AC02> { [ o, O, odiaeresis, Odiaeresis ] };
+    key <AC03> { [ e, E, EuroSign ] };
+    key <AC04> { [ u, U, udiaeresis, Udiaeresis] };
+    key <AC05> { [ i, I ] };
+    key <AC06> { [ d, D ] };
+    key <AC07> { [ h, H ] };
+    key <AC08> { [ t, T ] };
+    key <AC09> { [ n, N ] };
+    key <AC10> { [ s, S, ssharp ] };
+    key <AC11> { [ minus, underscore ] };
+    key <BKSL> { [ percent, degree ] };
+
+    key <LSGT>	{ [ semicolon, colon ] };
+    key <AB01>	{ [ q, Q ] };
+    key <AB02>	{ [ j, J ] };
+    key <AB03>	{ [ k, K ] };
+    key <AB04>	{ [ x, X ] };
+    key <AB05>	{ [ dead_acute, dead_grave ] };
+    key <AB06>	{ [ b, B ] };
+    key <AB07>	{ [ m, M ] };
+    key <AB08>	{ [ w, W ] };
+    key <AB09>	{ [ v, V ] };
+    key <AB10>	{ [ z, Z ] };
+
+    include "level3(ralt_switch)"
+};
