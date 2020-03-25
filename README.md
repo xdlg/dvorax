@@ -13,22 +13,22 @@ Strict touch typing on a standard keyboard (i.e. row-staggered) makes absolutely
 
 ![Touch typing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Touch_typing.svg/1200px-Touch_typing.svg.png)The right hand is fine, as the top-left to bottom-right key alignment (for example 7, U, J, M) matches the natural movement of the fingers. The hand can be kept in alignment with the forearm, and the wrist at a neutral angle.
 
-The left hand is *not* fine, as the key alignment runs counter to the finger movement. You either have to bend your wrist inward or make some finger contortions, especially for the bottom row. For example, reaching down from A to Z with your pinky while keeping a neutral wrist angle is an extremely awkward movement. I believe that most people choose to bend their wrists inwards, which sounds and feels like a sure way to get RSI.
+The left hand is *not* fine, as the key alignment runs counter to the finger movement. You either have to bend your wrist outward or make some finger contortions, especially for the bottom row. For example, reaching down from A to Z with your pinky while keeping a neutral wrist angle is an extremely awkward movement. I believe that most people choose to bend their wrists out, which sounds and feels like a sure way to get RSI.
 
 The culprit is row staggering, inherited from typewriters. Keyboards like the [X-Bows](https://x-bows.com/) or the [Ergodox](https://ergodox-ez.com/) address that problem, but they're still expensive, and I like the frugality of a software solution.
 
 ## Characteristics
 
-Dvorax is a somewhat symmetrical keyboard layout based on Dvorak. It takes advantage of the ISO 105 keyboard to shift the left half of the bottom row one key to the left. The home row and the top row stay the same. Reaching the top row with neutral wrists isn't a problem for me, as the staggering is much less pronounced than with the bottom row. We won't achieve perfect symmetry on a  standard keyboard anyway.
+Dvorax is a somewhat symmetrical keyboard layout based on Dvorak. It takes advantage of the ISO 105 keyboard to shift the left half of the bottom row one key to the left. The home row and the top row stay the same. Reaching the top row with neutral wrists isn't a problem for me, as the staggering is much less pronounced than with the bottom row. We won't achieve perfect symmetry on a  standard keyboard anyway. The left half of the digits row is quite different, see below.
 
 ![Layout](https://github.com/xdlg/Dvorax/blob/master/layout.png)
 
 Additional characteristics:
-- The layout should be usable on Linux and Windows. So features that could be programmed with xkb or xmodmap but not Microsoft Keyboard Layout Creator are out.
+- The layout should be usable on Linux and Windows. Features that could be programmed with xkb or xmodmap but not Microsoft Keyboard Layout Creator are out.
 - I mostly write in English, often in German and occasionally in French, so I want good support for German characters and decent support for French characters.
 - Leaving the 0 and 1 on the weakest fingers makes no sense, as they are by far the most important digits. Also, having the 0 completely to the right always seemed weird to me. In Dvorax, the 0 and 1 are on strong fingers, and the digit progression is mirrored.
 - Parentheses, brackets, and curly brackets are symmetrical.
-- Moving half the bottom row to the left and reorganizing the digits row leaves an empty key on each. These keys are the least reachable for either hand, so they be assigned to characters used only occasionally.
+- Moving half the bottom row to the left and reorganizing the digits row leaves an empty key on each. These keys are the least reachable for either hand, so they can be assigned to characters used only occasionally.
 - The other special characters are mostly taken from Dvorak.
 - I don't need Caps Lock, so it is now an additional Backspace.
 

@@ -1,5 +1,4 @@
 xkb_symbols "basic" {
-
     name[Group1]="Dvorax";
 
     key <TLDE> { [ bracketleft, braceleft ] };
