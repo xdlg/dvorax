@@ -1,5 +1,4 @@
-default
-xkb_symbols "basic" {
+default xkb_symbols "basic" {
 
     name[Group1]="Dvorax";
 
@@ -15,30 +14,31 @@ xkb_symbols "basic" {
     key <AE10> { [ 0, parenright ] };
 
     key <AD01> { [ apostrophe, quotedbl ] };
-    key <AD02> { [ comma, less ] };
-    key <AD03> { [ period, greater ] };
-    key <AD04> { [ p, P, grave ] };
+    key <AD02> { [ comma, less, dead_tilde ] };
+    key <AD03> { [ period, greater, dead_acute ] };
+    key <AD04> { [ p, P, dead_grave ] };
     key <AD05> { [ y, Y ] };
     key <AD06> { [ f, F ] };
-    key <AD07> { [ g, G ] };
-    key <AD08> { [ c, C ] };
-    key <AD09> { [ r, R ] };
+    key <AD07> { [ g, G, Prior ] };
+    key <AD08> { [ c, C, Up ] };
+    key <AD09> { [ r, R, Next ] };
     key <AD10> { [ l, L ] };
     key <AD11> { [ slash, question, backslash, bar ] };
 
+    key <CAPS> { [ ISO_Level3_Shift ] };
     key <AC01> { [ a, A, adiaeresis, Adiaeresis ] };
     key <AC02> { [ o, O, odiaeresis, Odiaeresis ] };
     key <AC03> { [ e, E, EuroSign ] };
     key <AC04> { [ u, U, udiaeresis, Udiaeresis ] };
     key <AC05> { [ i, I ] };
-    key <AC06> { [ d, D ] };
-    key <AC07> { [ h, H ] };
-    key <AC08> { [ t, T ] };
-    key <AC09> { [ n, N ] };
-    key <AC10> { [ s, S ] };
+    key <AC06> { [ d, D, Home ] };
+    key <AC07> { [ h, H, Left ] };
+    key <AC08> { [ t, T, Down ] };
+    key <AC09> { [ n, N, Right ] };
+    key <AC10> { [ s, S, End ] };
     key <AC11> { [ minus, underscore, equal, plus ] };
 
-    key <AB01> { [ semicolon, colon, asciitilde ] };
+    key <AB01> { [ semicolon, colon ] };
     key <AB02> { [ q, Q ] };
     key <AB03> { [ j, J ] };
     key <AB04> { [ k, K, ssharp ] };
