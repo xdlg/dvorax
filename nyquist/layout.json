@@ -1,0 +1,205 @@
+[
+  [
+    "Esc",
+    {
+      "c": "#cf1d67",
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "!\n1\n\n\n\n\n\nF1",
+    {
+      "c": "#f37201"
+    },
+    "@\n2\n\n\n\n\n\nF2",
+    {
+      "c": "#8eb734"
+    },
+    "#\n3\n\n\n\n\n\nF3",
+    {
+      "c": "#00548c"
+    },
+    "$\n4\n\n\n\n\n\nF4",
+    "%\n5\n\n\n\n\n\nF5",
+    {
+      "x": 1,
+      "c": "#00afef"
+    },
+    "^\n6\n\n\n\n\n\nF6",
+    "&\n7\n\n\n\n\n\nF7",
+    {
+      "c": "#8eb734"
+    },
+    "*\n8\n\n\n\n\n\nF8",
+    {
+      "c": "#f37201"
+    },
+    "(\n9\n\n\n\n\n\nF9",
+    {
+      "c": "#cf1d67"
+    },
+    ")\n0\n\n\n\n\n\nF10",
+    {
+      "c": "#cccccc"
+    },
+    "BkSp\n\n\n\n\n\n\nDel"
+  ],
+  [
+    "Tab",
+    {
+      "c": "#cf1d67"
+    },
+    "\"\n'\n\n\n\n\n\nF11",
+    {
+      "c": "#f37201"
+    },
+    "<\n,\n\n\n\n\n\nF12\n\n\n~",
+    {
+      "c": "#8eb734"
+    },
+    ">\n.\n\n\n\n\n\nF13\n\n\n`",
+    {
+      "c": "#00548c"
+    },
+    "P\n\n\n\n\n\n\nF14",
+    "Y\n\n\n\n\n\n\nF15",
+    {
+      "x": 1,
+      "c": "#00afef"
+    },
+    "F",
+    "G\n\n\n\n\n\n\nPgUp",
+    {
+      "c": "#8eb734"
+    },
+    "C\n\n\n\n\n\n\n&uarr;",
+    {
+      "c": "#f37201"
+    },
+    "R\n\n\n\n\n\n\nPgDn",
+    {
+      "c": "#cf1d67"
+    },
+    "L",
+    "?\n/\n\n\n\n\n\n\n|\n\n\\"
+  ],
+  [
+    {
+      "c": "#cccccc"
+    },
+    "Fun",
+    {
+      "c": "#cf1d67"
+    },
+    "A\n\n\n\n\n\n\n\n\n\n[",
+    {
+      "c": "#f37201"
+    },
+    "O\n\n\n\n\n\n\n\n\n\n]",
+    {
+      "c": "#8eb734"
+    },
+    "E\n\n\n\n\n\n\n\n\n\n{",
+    {
+      "c": "#00548c"
+    },
+    "U\n\n\n\n\n\n\nPrtScr\n\n\n}",
+    "I",
+    {
+      "x": 1,
+      "c": "#00afef"
+    },
+    "D\n\n\n\n\n\n\nHome",
+    "H\n\n\n\n\n\n\n&larr;",
+    {
+      "c": "#8eb734"
+    },
+    "T\n\n\n\n\n\n\n&darr;",
+    {
+      "c": "#f37201"
+    },
+    "N\n\n\n\n\n\n\n&rarr;",
+    {
+      "c": "#cf1d67"
+    },
+    "S\n\n\n\n\n\n\nEnd",
+    "_\n-\n\n\n\n\n\n\n+\n\n="
+  ],
+  [
+    {
+      "c": "#cccccc"
+    },
+    "Shift",
+    {
+      "c": "#cf1d67"
+    },
+    ":\n;",
+    {
+      "c": "#f37201"
+    },
+    "Q",
+    {
+      "c": "#8eb734"
+    },
+    "J",
+    {
+      "c": "#00548c"
+    },
+    "K",
+    "X",
+    {
+      "x": 1,
+      "c": "#00afef"
+    },
+    "B\n\n\n\n\n\n\nMute",
+    "M\n\n\n\n\n\n\nVol-",
+    {
+      "c": "#8eb734"
+    },
+    "W\n\n\n\n\n\n\nVol+",
+    {
+      "c": "#f37201"
+    },
+    "V\n\n\n\n\n\n\nBts-",
+    {
+      "c": "#cf1d67"
+    },
+    "Z\n\n\n\n\n\n\nBts+",
+    {
+      "c": "#cccccc"
+    },
+    "Shift"
+  ],
+  [
+    "Ctrl",
+    "Win",
+    {
+      "a": 7
+    },
+    "",
+    {
+      "a": 4
+    },
+    "Alt",
+    {
+      "w": 2
+    },
+    "Space",
+    {
+      "x": 1,
+      "w": 2
+    },
+    "Enter",
+    "Sym",
+    "AltGr",
+    "AltTab",
+    "Ctrl"
+  ]
+]
