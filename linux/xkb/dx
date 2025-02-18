@@ -2,20 +2,20 @@ default xkb_symbols "basic" {
 
     name[Group1]="Dvorax";
 
-    key <AE01> { [ 1, exclam ] };
-    key <AE02> { [ 2, at ] };
-    key <AE03> { [ 3, numbersign ] };
-    key <AE04> { [ 4, dollar ] };
+    key <AE01> { [ 1, exclam, bracketleft ] };
+    key <AE02> { [ 2, at, bracketright ] };
+    key <AE03> { [ 3, numbersign, braceleft ] };
+    key <AE04> { [ 4, dollar, braceright ] };
     key <AE05> { [ 5, percent, EuroSign ] };
-    key <AE06> { [ 6, dead_circumflex ] };
+    key <AE06> { [ 6, asciicircum ] };
     key <AE07> { [ 7, ampersand ] };
     key <AE08> { [ 8, asterisk ] };
     key <AE09> { [ 9, parenleft ] };
     key <AE10> { [ 0, parenright ] };
 
-    key <AD01> { [ dead_acute, dead_diaeresis ] };
-    key <AD02> { [ comma, less, dead_tilde ] };
-    key <AD03> { [ period, greater, dead_grave ] };
+    key <AD01> { [ apostrophe, quotedbl, grave ] };
+    key <AD02> { [ comma, less, asciitilde ] };
+    key <AD03> { [ period, greater ] };
     key <AD04> { [ p, P ] };
     key <AD05> { [ y, Y ] };
     key <AD06> { [ f, F ] };
@@ -26,10 +26,10 @@ default xkb_symbols "basic" {
     key <AD11> { [ slash, question, backslash, bar ] };
 
     key <CAPS> { [ ISO_Level3_Shift ] };
-    key <AC01> { [ a, A, bracketleft ] };
-    key <AC02> { [ o, O, bracketright ] };
-    key <AC03> { [ e, E, braceleft ] };
-    key <AC04> { [ u, U, braceright ] };
+    key <AC01> { [ a, A, adiaeresis, Adiaeresis ] };
+    key <AC02> { [ o, O, odiaeresis, Odiaeresis ] };
+    key <AC03> { [ e, E ] };
+    key <AC04> { [ u, U, udiaeresis, Udiaeresis ] };
     key <AC05> { [ i, I ] };
     key <AC06> { [ d, D, Home ] };
     key <AC07> { [ h, H, Left ] };
